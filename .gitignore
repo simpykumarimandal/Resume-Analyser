@@ -1,0 +1,37 @@
+# Virtual Environment
+venv/
+.venv/
+env/
+.env/
+*/venv/ # To ignore venv in subdirectories, just in case
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*.pyd
+*.pyo
+
+# Distribution / packaging
+.Python
+build/
+dist/
+eggs/
+*.egg-info
+.cache/
+
+# Editor files (VS Code specific)
+.vscode/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+log/
+
+# Other common ignored files for Python
+.ipynb_checkpoints/ # For Jupyter notebooks
+data/                 # If you have large data files that shouldn't be versioned
+*.csv                 # Ignore all CSV files
+*.txt                 # Ignore all TXT files
